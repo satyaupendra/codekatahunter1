@@ -5,8 +5,6 @@ odd=[]
 m=[]
 for i in range(n):
     if(l[i]%2==0 and i%2!=0):
-        even.append(l[i])
+        print(l[i],end=" ")
     elif(l[i]%2!=0 and i%2==0):
-        odd.append(l[i])
-m=even+odd
-print(*m,sep=" ")
+        print(l[i],end=" ")
