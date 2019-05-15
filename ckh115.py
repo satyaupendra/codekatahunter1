@@ -1,7 +1,7 @@
 m=int(raw_input())
 co=0
 a=[]
-for x in range(2,n):
+for x in range(2,m):
   i=2
   for i in range(2,x):
     if(x%i==0):
