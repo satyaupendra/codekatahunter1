@@ -1,4 +1,4 @@
-n=int(raw_input())
+m=int(raw_input())
 co=0
 a=[]
 for x in range(2,n):
@@ -11,7 +11,7 @@ for x in range(2,n):
 for x in range(0,len(a)):
     y=x
     while(y<len(a)):
-        if(a[x]+a[y]==n):
+        if(a[x]+a[y]==m):
             co=co+1
         y=y+1
 print(co)
